@@ -13,4 +13,5 @@ class TestCaseForFIZZBUZZ {
 		assertEquals(1,input);
 	}
 
+	
 }
