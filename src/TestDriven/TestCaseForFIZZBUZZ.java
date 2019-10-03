@@ -26,5 +26,10 @@ class TestCaseForFIZZBUZZ {
 		String input = fizzbuzz.printStringofInputFizz(3);
 		assertEquals("Fizz",input);
 	}
-	
+	@Test
+	void test_input_is_4_expect_output_is_4() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int input = fizzbuzz.printStringofInput4(4);
+		assertEquals(4,input);
+	}
 }
