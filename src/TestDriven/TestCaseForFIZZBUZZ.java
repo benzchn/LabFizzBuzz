@@ -16,7 +16,7 @@ class TestCaseForFIZZBUZZ {
 	@Test
 	void test_input_is_2_expect_output_is_2() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		int input = fizzbuzz.printStringofInput2(2);
+		int input = fizzbuzz.printStringofInput(2);
 		assertEquals(2,input);
 	}
 
@@ -29,7 +29,7 @@ class TestCaseForFIZZBUZZ {
 	@Test
 	void test_input_is_4_expect_output_is_4() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		int input = fizzbuzz.printStringofInput4(4);
+		int input = fizzbuzz.printStringofInput(4);
 		assertEquals(4,input);
 	}
 }
