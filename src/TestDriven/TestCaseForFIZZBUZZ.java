@@ -12,6 +12,12 @@ class TestCaseForFIZZBUZZ {
 		int input = fizzbuzz.printStringofInput(1);
 		assertEquals(1,input);
 	}
+	@Test
+	void test_input_is_2_expect_output_is_2() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int input = fizzbuzz.printStringofInput2(2);
+		assertEquals(2,input);
+	}
 
 	
 }
