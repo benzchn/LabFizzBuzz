@@ -2,8 +2,8 @@ package TestDriven;
 
 public class FizzBuzz {
 
-	public int printStringofInput() {
-		return 1;
+	public int printStringofInput(int number) {
+		return number;
 	}
 
 }
