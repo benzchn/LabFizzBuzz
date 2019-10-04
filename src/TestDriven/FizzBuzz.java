@@ -8,6 +8,8 @@ public class FizzBuzz {
 			output = String.valueOf(number);
 		}else if(number %3 == 0) {
 			output = "Fizz";
+		}else if(number %5 == 0) {
+			output = "Buzz";
 		}
 		return output;
 		}

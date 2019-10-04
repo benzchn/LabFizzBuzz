@@ -10,14 +10,14 @@ class TestCaseForFIZZBUZZ {
 	void test_input_is_1_expect_output_is_1() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
 		String input = fizzbuzz.printStringofInput(1);
-		assertEquals(1,input);
+		assertEquals("1",input);
 	}
 	
 	@Test
 	void test_input_is_2_expect_output_is_2() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
 		String input = fizzbuzz.printStringofInput(2);
-		assertEquals(2,input);
+		assertEquals("2",input);
 	}
 
 	@Test
@@ -30,13 +30,13 @@ class TestCaseForFIZZBUZZ {
 	void test_input_is_4_expect_output_is_4() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
 		String input = fizzbuzz.printStringofInput(4);
-		assertEquals(4,input);
+		assertEquals("4",input);
 	}
 	
 	@Test
 	void test_input_is_5_expect_output_is_Buzz() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		String input = fizzbuzz.printStringofInputBuzz(5);
+		String input = fizzbuzz.printStringofInput(5);
 		assertEquals("Buzz",input);
 	}
 }
