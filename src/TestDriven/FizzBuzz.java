@@ -2,15 +2,14 @@ package TestDriven;
 
 public class FizzBuzz {
 
-	public int printStringofInput(int number) {
-		return number;
-	}
-	
-	public String printStringofInputFizz(int number) {
-		String fizz = "";
-		if(number == 3) {
-			fizz = "Fizz";
+	public String printStringofInput(int number) {
+		String output = null;
+		if (number%3 != 0 && number%5 != 0) {
+			output = String.valueOf(number);
+		}else if(number %3 == 0) {
+			output = "Fizz";
 		}
-		return fizz;
-	}
+		return output;
+		}
+	
 }
