@@ -6,6 +6,8 @@ public class FizzBuzz {
 		String output = null;
 		if (number%3 != 0 && number%5 != 0) {
 			output = String.valueOf(number);
+		}else if(number %3 == 0 && number%5 == 0) {
+			output = "FizzBuzz";
 		}else if(number %3 == 0) {
 			output = "Fizz";
 		}else if(number %5 == 0) {
