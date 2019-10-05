@@ -50,7 +50,7 @@ class TestCaseForFIZZBUZZ {
 	@Test
 	void test_input_is_7_expect_output_is_7() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		int input = fizzbuzz.printStringofInput(7);
+		String input = fizzbuzz.printStringofInput(7);
 		assertEquals("7",input);
 	}
 }
