@@ -71,7 +71,7 @@ class TestCaseForFIZZBUZZ {
 	@Test
 	void test_input_is_10_expect_output_is_10() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		int input = fizzbuzz.printStringofInput(10);
-		assertEquals("10",input);
+		String input = fizzbuzz.printStringofInput(10);
+		assertEquals("Buzz",input);
 	}
 }
