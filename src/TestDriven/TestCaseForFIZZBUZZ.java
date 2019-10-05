@@ -56,7 +56,7 @@ class TestCaseForFIZZBUZZ {
 	@Test
 	void test_input_is_8_expect_output_is_8() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		int input = fizzbuzz.printStringofInput(8);
+		String input = fizzbuzz.printStringofInput(8);
 		assertEquals("8",input);
 	}
 }
