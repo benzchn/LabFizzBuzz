@@ -102,4 +102,11 @@ class TestCaseForFIZZBUZZ {
 		String input = fizzbuzz.printStringofInput(14);
 		assertEquals("14",input);
 	}
+	
+	@Test
+	void test_input_is_15_expect_output_is_FizzBuzz() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int input = fizzbuzz.printStringofInput(15);
+		assertEquals("FizzBuzz",input);
+	}
 }
